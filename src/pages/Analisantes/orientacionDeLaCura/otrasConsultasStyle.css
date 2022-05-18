@@ -1,0 +1,21 @@
+.pageContainer {
+    text-align: center;
+    background-color: #97b1af;
+    padding: 150px 0;
+}
+
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+.product-list-item {
+    background-color: #167782;
+    color: #c3ebed;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}

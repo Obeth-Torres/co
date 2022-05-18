@@ -1,0 +1,46 @@
+.fichaDatos {
+  padding: 10px;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+.fotoDelCaso {
+  width: 200px;
+  height: 200px;
+  background: #819998;
+  border-radius: 50%;
+  margin: 0 50%;
+  transform: translateX(-50%);
+}
+.fotoDelCaso img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.datoDelCaso {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.datoDelCaso h5 {
+  margin: 5px;
+  padding: 5px;
+  background-color: #97b1af;
+  color: #141818;
+  border-radius: 10px 0 0 10px;
+  text-align: right;
+}
+.datoDelCaso p {
+  margin: 5px;
+  padding: 5px;
+  background-color: #97b1af;
+  color: #c3ebed;
+  border-radius: 0 10px 10px 0;
+}
+.descripcion {
+  margin: 40px 10px;
+  line-height: 1.7rem;
+}
+.descripcion p {
+  margin: 1rem 0;
+}
+

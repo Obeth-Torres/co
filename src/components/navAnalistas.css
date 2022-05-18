@@ -1,0 +1,51 @@
+.navAnalistas {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-color: #23bdcf;
+}
+.home_icon {
+  width: 30px;
+  height: 30px;
+  color: #c3ebed;
+  margin: 20px;
+}
+.rutas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.activeLink {
+  background-color: #dd2f58;
+}
+.link {
+  display: flex;
+  text-align: center;
+  padding: 3px;
+  color: #c3ebed;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  margin-top: 10px;
+  background-color: #293333;
+}
+.link p {
+  margin-top: 5px;
+}
+.link:hover {
+  background-color: #dd2f58;
+}
+.icon {
+  color: #c3ebed;
+  margin: 10px;
+}
+
+@media (max-width: 700px) {
+  .link p {
+    display: none;
+  }
+}
+.navAnalistasBottom {
+  margin: 0;
+  padding: 20px;
+  background-color: #23bdcf;
+}

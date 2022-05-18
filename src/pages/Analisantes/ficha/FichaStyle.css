@@ -1,0 +1,39 @@
+.fichaStyle {
+    background-color: #3e4c4b;
+    color: #e4f2f3;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.itemDelCaso {
+    margin: 10px auto;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5px;
+    padding: 5px;
+}
+.itemDelCaso label {
+    background-color: #697e7f;
+    color: #e4f2f3;
+    border-radius: 5px 0 0 5px;
+    text-align: right;
+    padding-right: 10px;
+}
+.itemDelCaso input {
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+}
+.descripcionDelCaso textarea {
+    width: 900px;
+    height: 400px;
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 700px){
+    .descripcionDelCaso textarea {
+        width: 500px;
+    }
+    .itemDelCaso {
+        width: 500px;
+    }
+}

@@ -1,0 +1,124 @@
+.bodyAnalisante {
+  justify-items: center;
+  background: #847208;
+  margin: 20px 0px;
+}
+.box1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  margin: 0 100px;
+}
+.fichaFamiliogr {
+  background-color: #293333;
+  color: #e4f2f3;
+  border-radius: 10px;
+  text-align: center;
+}
+.sociograma {
+  background-color: #293333;
+  color: #e4f2f3;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.box2 {
+  text-align: center;
+  margin: 50px 0;
+}
+.box2 h2 {
+  color: #e5deb1;
+  padding: 15px;
+  text-transform: uppercase;
+}
+.orientations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.herramientas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+.herramientas div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.box3 {
+  background-color: #293333;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.box3 h3{
+  color: #e4f2f3;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+.sueño {
+  background-image: url(../../assets/images/sueño.jpg);
+  background-size: cover;
+  color: #efecda;
+}
+.asesoria {
+  background-image: url(../../assets/images/asesoria.jpg);
+  background-size: cover;
+  color: #efecda;
+}
+.asesorF {
+  background-image: url(../../assets/images/asesoriaF.jpg);
+  background-size: cover;
+  color: #efecda;
+}
+.vocacion {
+  background-image: url(../../assets/images/vocacion.jpg);
+  background-size: cover;
+  color: #0b3d42;
+}
+.deporte {
+  background-image: url(../../assets/images/deporte.jpg);
+  background-size: cover;
+  color: #efecda;
+}
+.cocinar {
+  background-image: url(../../assets/images/cocinar.jpg);
+  background-size: cover;
+  color: #0b3d42;
+}
+.tiempo {
+  background-image: url(../../assets/images/tiempo.jpg);
+  background-size: cover;
+  color: #0b3d42;
+}
+.meditacion { 
+  background-image: url(../../assets/images/meditacion.jpg);
+  background-size: cover;
+  color: #efecda;
+}
+.nutricion {
+  background-image: url(../../assets/images/nutricion.jpg);
+  background-size: cover;
+  color: #0b3d42;
+}
+
+.navAnalisantesBotton {
+  margin: 50px 0;
+  text-align: center;
+}
+.navAnalisantesBotton p {
+  color: #0b3d42;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .box1 {
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+}

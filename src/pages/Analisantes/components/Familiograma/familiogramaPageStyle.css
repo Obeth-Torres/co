@@ -1,0 +1,12 @@
+.familiogramaPage {
+    background-color: #293333;
+    color: #e4f2f3;
+    height: 100vh;
+    margin-top: 10px;
+}
+.familiogramaMain {
+    padding: 50px 0;
+    text-align: center;
+    width: 500px;
+    margin: 0px auto;
+}

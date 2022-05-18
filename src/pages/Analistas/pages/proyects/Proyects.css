@@ -1,0 +1,35 @@
+.proyects {
+    background-color: #0b3d42;
+    color: #819998;
+    min-height: 100vh;
+    text-align: center; 
+}
+.titleAnimation {
+    padding: 100px 10px;
+}
+
+.titleAnimation h2 {   
+    width: 680px;
+    margin: auto;    
+    border-right: 2px solid #819998;    
+    animation: typewriter 2.5s steps(30) normal, blinkTextCursor 0.5s infinite;
+    white-space: nowrap;
+    overflow: hidden;    
+}
+
+@keyframes typewriter {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 680px;
+    }
+}
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #819998;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}

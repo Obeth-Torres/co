@@ -1,0 +1,14 @@
+#ring2 {
+    animation: ring 10s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes ring {
+    from {
+        transform: rotateZ(360deg);
+    }
+    to {
+        transform: rotateZ(0deg);
+    }
+}

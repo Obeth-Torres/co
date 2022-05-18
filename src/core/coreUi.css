@@ -1,0 +1,82 @@
+.landPage {
+  text-align: center;
+  background-color: #97b1af;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+h1 {
+  letter-spacing: 0.6rem;
+  color: #e4f2f3;
+  line-height: 3.5rem;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  color: #e4f2f3;
+  font-size: 1rem;
+  gap: 100px;
+}
+.outer {
+  position: relative;
+  background-color: #546666;
+  left: 50%;
+  transform: translate(-50%);
+}
+.button {
+  height: 70px;
+  width: 210px;
+  border-radius: 10px;
+}
+.outer button,
+.outer span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.outer button {
+  background: #546666;
+  color: #e4f2f3;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  letter-spacing: 0.09rem;
+  cursor: pointer;
+  z-index: 9;
+}
+.button button {
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+}
+.outer span {
+  background: inherit;
+  height: 100%;
+  width: 100%;
+}
+.button span {
+  border-radius: 10px;
+}
+.outer span:nth-child(1) {
+  filter: blur(7px);
+}
+.outer span:nth-child(2) {
+  filter: blur(14px);
+}
+.outer:hover {
+  background: linear-gradient(
+    #21b4c3,
+    #23bdcf,
+    #45cfd6,
+    #61d2d8,
+    #92dce0,
+    #c3ebed
+  );
+}

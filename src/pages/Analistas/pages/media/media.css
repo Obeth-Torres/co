@@ -1,0 +1,50 @@
+.mediaPage {
+    background-color: #0b3d42;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.capitulo {
+    background-color: #b0cbc9;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    border-right: 4px solid #c8e5e2;
+    border-bottom: 4px solid #c8e5e2;
+}
+.capitulo img {
+    width: 400px;
+    text-align: center;
+}
+.capitulo h2 {
+    color: #293333;
+    margin: 20px;
+
+}
+.archivos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.archivos h3 {
+    padding: 10px;
+    color: #e4f2f3;
+}
+
+.icons {
+    font-size: 1.5rem;
+    color: #e4f2f3;
+}
+.mediaButtons {
+    position: relative;
+    background-color: #3e4c4b;
+    border-radius: 15px;
+    padding: 10px;
+    border-right: 2px solid #e4f2f3;
+    border-bottom: 2px solid #e4f2f3;
+}
+.mediaButtons:hover {
+    background-color: #dd2f58;
+}

@@ -1,0 +1,16 @@
+
+canvas {
+  width: 600px;
+  height: 400px;
+  background-color: #293333;
+  border-radius: 10px;
+}
+.sociogramaPage {
+  background-color: #293333;
+  color: #d8c559;
+  text-align: center;
+  height: 100vh;
+}
+.sociogramaPage h2 {
+  padding: 20px;
+}

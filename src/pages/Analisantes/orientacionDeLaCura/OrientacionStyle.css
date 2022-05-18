@@ -1,0 +1,17 @@
+.orientacion {
+    text-align: center;
+    background-color: #3e4c4b;
+
+}
+.consultas {
+    color: #b0cbc9;
+    padding: 20px;
+}
+.consultas textarea {
+    width: 600px;
+    height: 150px;
+}
+.consultasSecundarias {
+    color: #e0d48c;
+    padding: 50px;
+}
