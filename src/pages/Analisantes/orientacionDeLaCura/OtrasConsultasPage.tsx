@@ -21,14 +21,12 @@ class OtrasConsultasPage extends React.Component<{}, IState> {
     public render() {
         return (
             <div className='pageContainer'>
-                <p>Welcome to otras consultas</p>
                 <ul className='product-list'>
                     {this.state.otrasConsultas.map(consulta => (
                         <Link to={`${consulta.id}`} style={{textDecoration: 'none'}}>
-                            <li key={consulta.id} 
-                            className='product-list-item'>
+                            <li key={consulta.id} className='product-list-item'>
                                 {consulta.title}
-                        </li>
+                            </li>
                         </Link>
                         
                     ))}
