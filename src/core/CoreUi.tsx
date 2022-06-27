@@ -13,7 +13,7 @@ export const CoreUi = () => {
           <p>Consulta como </p>
           <div className='outer button'>
             
-            <Link to={'analisantes'} ><button >Analisante</button></Link> 
+            <Link to={'analisantes'} ><button >Analizante</button></Link> 
             <span></span>
             <span></span>
           </div>         
