@@ -9,11 +9,13 @@ export const CoreUi = () => {
       <h1>CONSULTA PSICOANALÍTICA ONLINE</h1>
 
       <div className="links">
+
+        
         <div>
           <p>Consulta como </p>
           <div className='outer button'>
             
-            <Link to={'analisantes'} ><button >Analizante</button></Link> 
+            <Link to={'analistas'} ><button> Analista</button></Link>            
             <span></span>
             <span></span>
           </div>         
